@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/httpmime-4.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_actionbarview.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_AtFriends.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_comment.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_email.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_evernote.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_facebook_1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_facebook_2.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_flickr.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_instagram.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_kakao.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_laiwang_1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_laiwang_2.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_like.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_line.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_linkedin.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_pinterest.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_pocket.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_QQZone_1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_QQZone_2.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_QQZone_3.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_renren_1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_renren_2.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_scrshot.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_shake.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_Sina.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_sms.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_tencentWB_1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_tencentWB_2.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_tencentWB_3.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_tumblr.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_UserCenter.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_WeiXin_1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_WeiXin_2.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_whatsapp.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_yixin_1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_yixin_2.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/SocialSDK_ynote.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/androidWorkplace/umeng_android_social_sdk_4.2.3_custom/umeng_android_social_sdk_4.2.3_custom/social_sdk_example/libs/umeng_social_sdk.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
