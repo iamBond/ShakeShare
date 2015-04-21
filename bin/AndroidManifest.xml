@@ -7,7 +7,7 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="19" />
-    
+    <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -17,8 +17,8 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-<!--     <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
- -->
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
+
     <!-- renren sso Permission for Unit Test -->
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.SET_DEBUG_APP" />
@@ -44,7 +44,7 @@
         <!-- 友盟AppKey， 需要替换成你自己的 -->
         <meta-data
             android:name="UMENG_APPKEY"
-            android:value="4eaee02c527015373b000003" >
+            android:value="55122a7bfd98c531a90004a6" >
         </meta-data>
         
         <!-- 腾讯SSO授权的Activity注册 -->

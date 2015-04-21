@@ -11,4 +11,13 @@
         android:layout_height="wrap_content"
         android:text="注册摇一摇分享"
         />
+    
+    <ImageView
+     android:id="@+id/scrshot_imgview"
+     android:layout_width="200dp"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:scaleType="fitCenter"
+     android:contentDescription="@string/take_scrshot" />
+    
 </LinearLayout>
