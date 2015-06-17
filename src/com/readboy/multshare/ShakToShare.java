@@ -5,6 +5,8 @@ import java.util.List;
 
 import android.app.Activity;
 import android.hardware.SensorEvent;
+import android.os.Handler;
+import android.os.Message;
 import android.widget.Toast;
 
 import com.umeng.scrshot.adapter.UMAppAdapter;
@@ -19,6 +21,8 @@ import com.umeng.socialize.sso.QZoneSsoHandler;
 import com.umeng.socialize.sso.UMQQSsoHandler;
 import com.umeng.socialize.weixin.controller.UMWXHandler;
 
+import com.readboy.multshare.MainActivity.MHandler;
+
 public class ShakToShare {
 	// 整个平台的Controller, 负责管理整个SDK的配置、操作等处理
 //	private UMSocialService mController = UMServiceFactory
@@ -31,12 +35,16 @@ public class ShakToShare {
 	//摇一摇控制器 
 	private UMShakeService mShakeController = null;
 	
+	private final static int MSG = 1;
+	public MHandler myHandler = null;
 	
 	
-	public ShakToShare(Activity activity,UMShakeService shakeService) {
+	
+	public ShakToShare(Activity activity,UMShakeService shakeService, MHandler mHandler) {
 		super();
 		this.activity = activity;
 		this.mShakeController = shakeService;
+		this.myHandler = mHandler;
 		addQZoneQQPlatform();
 	}
 
@@ -60,6 +68,12 @@ public class ShakToShare {
 		UMWXHandler umwxHandler = new UMWXHandler(activity, WXAPP_ID,
 				WXAppSecret);
 		umwxHandler.addToSocialSDK();
+		
+		 // 支持微信朋友圈
+        UMWXHandler wxCircleHandler = new UMWXHandler(activity, WXAPP_ID, WXAppSecret);
+        wxCircleHandler.setToCircle(true);
+        wxCircleHandler.addToSocialSDK();
+		
 		/*
 		 * UMWXHandler wxHandler = new UMWXHandler(); new
 		 * UMWXHandler(MainActivity.this, appId); wxHandler.addToSocialSDK();
@@ -85,12 +99,14 @@ public class ShakToShare {
 		platforms.add(SHARE_MEDIA.QZONE);// 我增加的内容
 		platforms.add(SHARE_MEDIA.SINA);
 		platforms.add(SHARE_MEDIA.WEIXIN);
+		platforms.add(SHARE_MEDIA.WEIXIN_CIRCLE);
 		// 通过摇一摇控制器来设置文本分享内容
 		mShakeController.setShareContent("来自读书郎的分享");
 		//mShakeController.setShakeMsgType(ShakeMsgType.PLATFORM_SCRSHOT);
 		//mShakeController.setShakeMsgType(ShakeMsgType.SCRSHOT);
 		mShakeController.registerShakeListender(activity, appAdapter,
 				-2000, true, platforms, mSensorListener);
+	
 		mShakeController.enableShakeSound(true);
 	}
 
@@ -101,9 +117,10 @@ public class ShakToShare {
 
 		@Override
 		public void onStart() {
-
+		
 		}
 
+		
 		/**
 		 * 分享完成后回调 (non-Javadoc)
 		 * 
@@ -128,9 +145,15 @@ public class ShakToShare {
 		 */
 		@Override
 		public void onActionComplete(SensorEvent event) {
+			//定义一个消息对象
 			
+			Message msg = new Message();
+			msg.arg1 = MSG;
+			//定义一个handler处理发送消息
+			myHandler.sendMessage(msg);
 			Toast.makeText(activity, "暂停浏览课表", Toast.LENGTH_SHORT)
 					.show();
+			
 		}
 
 		/**
@@ -157,4 +180,17 @@ public class ShakToShare {
 			}
 		}
 	};
-}
+	
+	/*public class MyHandler extends Handler{
+
+		@Override
+		public void handleMessage(Message msg) {
+			// TODO Auto-generated method stub
+			super.handleMessage(msg);
+			System.out.println(msg.obj);
+			Toast.makeText(activity, "yaoyaoyaoyao", Toast.LENGTH_LONG).show();
+			}
+		}*/
+		
+	}
+
